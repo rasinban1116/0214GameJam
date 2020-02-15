@@ -21,5 +21,6 @@ public class TestPlayerBulletMove : MonoBehaviour
 
         mytransform.position = Pos;
 
+
     }
 }
