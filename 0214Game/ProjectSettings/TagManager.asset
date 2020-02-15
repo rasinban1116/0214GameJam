@@ -6,7 +6,9 @@ TagManager:
   tags:
   - Bomb
   - BombBullet
+  - wall
   - Wall
+  - bullet
   layers:
   - Default
   - TransparentFX
@@ -16,10 +18,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - Bullet
-  - 
-  - 
+  - Player1
+  - Player2
+  - Player1Bullet
+  - Player2Bullet
   - 
   - 
   - 

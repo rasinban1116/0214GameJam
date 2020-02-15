@@ -28,31 +28,5 @@ public class Player2Move : MonoBehaviour
             transform.position += pos;
         }
 
-        //if (Input.GetAxis("Player2Horizontal") > 0)
-        //{
-        
-        //    //右
-        //    transform.Translate(WorkSpeed * time, 0, 0);
-        //    //向き変更
-        //    transform.localScale = new Vector3(PlayerScale.x, PlayerScale.y, PlayerScale.z);
-        //}
-        //if (Input.GetAxis("Player2Horizontal") < 0)
-        //{
-        //    //左
-        //    transform.Translate(-WorkSpeed * time, 0, 0);
-        //    //向き変更
-        //    transform.localScale = new Vector3(-PlayerScale.x, PlayerScale.y, PlayerScale.z);
-        //}
-        //if (Input.GetAxis("Player2Vertical") > 0)
-        //{
-        //    //上
-        //    transform.Translate(0, WorkSpeed * time, 0);
-        //}
-
-        //if (Input.GetAxis("Player2Vertical") < 0)
-        //{
-        //    //下
-        //    transform.Translate(0, -WorkSpeed * time, 0);
-        //}
     }
 }

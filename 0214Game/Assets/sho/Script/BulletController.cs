@@ -13,8 +13,8 @@ public class BulletController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float Rstick_H = Input.GetAxis("Horizontal2");
-        float Rstick_V = Input.GetAxis("Vertical2");
+        float Rstick_H = Input.GetAxis("Player1Horizontal2");
+        float Rstick_V = Input.GetAxis("Player1Vertical2");
         var direction = new Vector3(Rstick_H, Rstick_V, 0);
         var rotation = Quaternion.LookRotation(Vector3.forward, direction);
         transform.localRotation = rotation;

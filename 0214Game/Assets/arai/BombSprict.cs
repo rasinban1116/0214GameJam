@@ -36,7 +36,7 @@ public class BombSprict : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // プレイヤーの弾に当たったら消滅
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "bullet")
         {
             // 当たった弾は消滅
             Destroy(collision.gameObject);
