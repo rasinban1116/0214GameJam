@@ -14,16 +14,13 @@ public class TestPlayerBulletMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-<<<<<<< HEAD:0214Game/Assets/mori/PlayerStatus.cs
-        //test
-=======
 
         Transform mytransform = this.transform;
         Vector3 Pos = transform.position;
         Pos.x += 0.01f;
 
         mytransform.position = Pos;
->>>>>>> master:0214Game/Assets/arai/TestPlayerBulletMove.cs
+
 
     }
 }
