@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour
+public class Player2Move : MonoBehaviour
 {
     public float WorkSpeed = 0.3f;
     private Vector3 PlayerScale;
@@ -17,8 +17,8 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         var time = Time.deltaTime;
-        var LH = Input.GetAxis("Player1Horizontal");
-        var LV = Input.GetAxis("Player1Vertical");
+        var LH = Input.GetAxis("Player2Horizontal");
+        var LV = Input.GetAxis("Player2Vertical");
 
         if (LH != 0 || LV != 0)
         {
@@ -28,36 +28,31 @@ public class PlayerMove : MonoBehaviour
             transform.position += pos;
         }
 
-        //if (Input.GetAxis("Player1Horizontal") > 0)
+        //if (Input.GetAxis("Player2Horizontal") > 0)
         //{
-
+        
         //    //右
         //    transform.Translate(WorkSpeed * time, 0, 0);
         //    //向き変更
         //    transform.localScale = new Vector3(PlayerScale.x, PlayerScale.y, PlayerScale.z);
         //}
-        //if (Input.GetAxis("Player1Horizontal") < 0)
+        //if (Input.GetAxis("Player2Horizontal") < 0)
         //{
         //    //左
         //    transform.Translate(-WorkSpeed * time, 0, 0);
         //    //向き変更
         //    transform.localScale = new Vector3(-PlayerScale.x, PlayerScale.y, PlayerScale.z);
         //}
-        //if (Input.GetAxis("Player1Vertical") > 0)
+        //if (Input.GetAxis("Player2Vertical") > 0)
         //{
         //    //上
         //    transform.Translate(0, WorkSpeed * time, 0);
         //}
 
-        //if (Input.GetAxis("VertPlayer1Verticalical") < 0)
+        //if (Input.GetAxis("Player2Vertical") < 0)
         //{
         //    //下
         //    transform.Translate(0, -WorkSpeed * time, 0);
         //}
-
-
-
-
-
     }
 }
