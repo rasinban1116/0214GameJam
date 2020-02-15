@@ -6,10 +6,8 @@ public class BulletController : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "wall")
-        {
             Destroy(gameObject);
-        }
+  
     }
 
     // Start is called before the first frame update
